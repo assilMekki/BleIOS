@@ -12,6 +12,7 @@
 		FA9BB06E220B53EA00D40DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9BB06C220B53EA00D40DBF /* Main.storyboard */; };
 		FA9BB070220B53EC00D40DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9BB06F220B53EC00D40DBF /* Assets.xcassets */; };
 		FA9BB073220B53EC00D40DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9BB071220B53EC00D40DBF /* LaunchScreen.storyboard */; };
+		FA9BB07B220B544900D40DBF /* UIAlertController+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB07A220B544900D40DBF /* UIAlertController+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA9BB06F220B53EC00D40DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9BB072220B53EC00D40DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9BB074220B53EC00D40DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9BB07A220B544900D40DBF /* UIAlertController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA9BB068220B53EA00D40DBF /* AppDelegate.swift */,
 				FA9BB06A220B53EA00D40DBF /* ViewController.swift */,
+				FA9BB07A220B544900D40DBF /* UIAlertController+Utility.swift */,
 				FA9BB06C220B53EA00D40DBF /* Main.storyboard */,
 				FA9BB06F220B53EC00D40DBF /* Assets.xcassets */,
 				FA9BB071220B53EC00D40DBF /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9BB06B220B53EA00D40DBF /* ViewController.swift in Sources */,
+				FA9BB07B220B544900D40DBF /* UIAlertController+Utility.swift in Sources */,
 				FA9BB069220B53EA00D40DBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
